@@ -1,9 +1,14 @@
 import React from 'react'
+import Game from './Game'
 
 const App = () => {
   return (
-    <h1>React development has begun!</h1>
+    <div>
+      <h1>Our Game</h1>
+      <Game />
+    </div>
   )
 }
 
 export default App
+                                                                                                        
